@@ -1,15 +1,15 @@
-# Semantic Search Project
+# Semantic Search Engine
 
-This project implements a semantic search system using a pre-trained DistilBERT model.
+This project leverages a pre-trained DistilBERT model to implement a semantic search system. It also includes automated testing using Selenium and the unittest framework.
 
-## Project Structure
+## Project Structure :
 
 - **`requirements.txt`**: Contains the Python dependencies for the project.
 - **`search.ipynb`**: Jupyter Notebook for experimenting with the semantic search functionality and also includes the Streamlit app.
 - **`simplewiki-2020-11-01.jsonl`**: Dataset file in JSONL format.
 - **`test.py`**: Script for testing the application.
 
-## Setup Instructions
+## Setup Instructions :
 
 1. Clone the repository:
    ```sh
@@ -28,7 +28,7 @@ This project implements a semantic search system using a pre-trained DistilBERT 
    ```
    **Note**: Before starting the application, ensure that you have executed all the cells in the `search.ipynb` file sequentially. This step is crucial for initializing the necessary components for the application to function correctly.
 
-## Testing:
+## Testing :
 
 In a new terminal, run the test script:
    ```sh
